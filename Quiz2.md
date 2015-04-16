@@ -95,7 +95,6 @@ Original source of the data: http://www.cpc.ncep.noaa.gov/data/indices/wksst8110
 
 ### Explanation
 
-    > data <- read.csv("./getdata-wksst8110.for", header = TRUE)
     > file_name <- "./getdata-wksst8110.for"
     > df <- read.fwf(file=file_name,widths=c(-1,9,-5,4,4,-5,4,4,-5,4,4,-5,4,4), skip=4)
     > sum(df[, 4])
